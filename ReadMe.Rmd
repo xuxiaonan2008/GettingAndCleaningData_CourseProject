@@ -18,7 +18,7 @@ This is my submission for the course project of Getting and Cleaning Data. What 
 ## About the results
 
 1. For the task 1 to 4, my result can be found in the file named "TidyData_task1-4.csv". 
-2. For the task 5 you can find the result named with "TidyData_task5.csv" within the respo.
+2. For the task 5 you can find the result named with "TidyData_task5.txt" within the respo.
 
 3. The analysis lines are shown as comments in the run_analysis.R
 

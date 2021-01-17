@@ -111,6 +111,5 @@ write.csv(TidyData, file = "/Users/macbookpro/Desktop/GettingAndCleaningData_Cou
 
 TidyData2 <- TidyData %>% group_by(subject, code) %>% summarise_all(mean)
 
-# write the result into "TityData_task5.csv":
-write.csv(TidyData2, file = "/Users/macbookpro/Desktop/GettingAndCleaningData_CourseProject/UCI HAR Dataset/TidyData_task5.csv")
-
+# write the result into "TityData_task5.txt":
+write.table(TidyData2, file = "/Users/macbookpro/Desktop/GettingAndCleaningData_CourseProject/UCI HAR Dataset/TidyData_task5.txt", row.name=FALSE)

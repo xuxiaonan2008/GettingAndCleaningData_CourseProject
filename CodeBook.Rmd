@@ -25,3 +25,4 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
+*I didn't change the skewnuss(), kurtosis(), bandsEnergy() and angle(), because the four names are for me appropriately enough.*
